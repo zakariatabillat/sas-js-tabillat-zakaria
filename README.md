@@ -7,9 +7,9 @@
 
 | Information | À compléter |
 |---|---|
-| Nom et prénom | ... |
-| Classe | ... |
-| Nom d'utilisateur GitHub | ... |
+| Nom et prénom | zakaria tabillat |
+| Classe | class A |
+| Nom d'utilisateur GitHub | zakariatabillat |
 
 ## 🧭 Comment travailler
 
