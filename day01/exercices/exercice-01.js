@@ -22,4 +22,4 @@
 const PI = 3.14;
 let rayon = 5;
 let P = 2 * PI * rayon;
-console.log(P);
+
