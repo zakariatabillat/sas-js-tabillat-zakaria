@@ -16,3 +16,10 @@
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
 // TODO: écris ta solution ici.
+
+let number=42,schoolName="YouCode", x=true, y=null, z;
+console.log(typeof number);
+console.log(typeof schoolName);
+console.log(typeof x);
+console.log(typeof y);
+console.log(typeof z);

@@ -15,3 +15,10 @@
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
 // TODO: écris ta solution ici.
+
+let x=10;
+let y="10";
+
+console.log(x==y);
+console.log(x===y);
+// i notice that === compares value and type as well unlike y that only compares values.
