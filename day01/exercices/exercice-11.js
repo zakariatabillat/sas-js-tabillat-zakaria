@@ -17,4 +17,25 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+
+let cartPrice=51;
+let delivery="free delivery";
+let finalprice="";
+
+if(cartPrice<=200){
+        console.log(cartPrice+"MAD"+" "+"no free delivery");
+}
+if(cartPrice>200 &&cartPrice<=500){
+    console.log(cartPrice+"MAD"+delivery);
+} 
+if (cartPrice>500){
+    cartPrice-=cartPrice*0.1;
+    finalprice=cartPrice;
+console.log(finalprice+"MAD"+delivery);
+}
+
+
+
+
+//console.log(cartPrice);
+

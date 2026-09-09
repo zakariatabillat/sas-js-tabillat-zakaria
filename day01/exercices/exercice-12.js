@@ -17,4 +17,10 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+
+let year=2024;
+if ((year%4==0 && year%100!=0)||year%400==0) {
+    console.log(year+" "+"is a leap year");
+    
+    
+}

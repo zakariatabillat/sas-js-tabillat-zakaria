@@ -9,4 +9,12 @@
  */
 'use strict';
 
-// TODO: écris ta solution ici.
+let a=5,b=10,c="";
+c=a;
+a=b;
+b=c;
+console.log(a);
+console.log(b);
+
+
+

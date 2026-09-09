@@ -17,4 +17,16 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+let joueur1 = "Pierre", joueur2 = "Ciseaux";
+
+if (joueur1 === joueur2) {
+    console.log("It is a draw");
+} else if (
+    (joueur1 === "Pierre" && joueur2 === "Ciseaux") ||
+    (joueur1 === "Papier" && joueur2 === "Pierre") ||
+    (joueur1 === "Ciseaux" && joueur2 === "Papier")
+) {
+    console.log("Joueur 1 gagne !");
+} else {
+    console.log("Joueur 2 gagne !");
+}
