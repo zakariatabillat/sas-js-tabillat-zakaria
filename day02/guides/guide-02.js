@@ -9,4 +9,14 @@
  */
 'use strict';
 
-// TODO: écris ta solution ici.
+
+let N = 100;
+let m = 0;
+
+while (N >= 1) {
+    N = N / 2;
+    m++;
+}
+
+console.log(N);
+console.log("Number of deviding is"+ m);

@@ -9,4 +9,11 @@
  */
 'use strict';
 
-// TODO: écris ta solution ici.
+for(let i=0;i<3;i++){
+    let L="";
+    for(let j=0;j<3;j++){
+        L=L+"*";
+    }
+    console.log(L);
+    
+}

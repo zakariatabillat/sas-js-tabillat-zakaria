@@ -14,4 +14,11 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+let nb=29;
+let isPrime=0;
+for(let i=2;i<=28;i++)
+    if(nb%i===0){ 
+        isPrime=1;
+}
+if(isPrime===1)  console.log(nb+" is not a prime number");
+else console.log(nb+" est un nombre premier");
