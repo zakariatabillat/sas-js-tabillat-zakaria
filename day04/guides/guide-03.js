@@ -9,4 +9,5 @@
  */
 'use strict';
 
-function carre(x) { return x * x; }
+//function carre(x) { return x * x; }
+const carre= x => x * x;
