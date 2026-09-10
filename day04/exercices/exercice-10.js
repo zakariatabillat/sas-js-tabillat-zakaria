@@ -17,6 +17,13 @@
 // 2. Écris ta solution sous cette ligne.
 
 
-function estPalindrome(mot){
-    if (mot===
+function estPalindrome(mot) {
+    let final = "";
+
+    for (let i = mot.length - 1; i >= 0; i--) {
+        final = final + mot[i];
+    }
+    return mot === final;
 }
+
+console.log(estPalindrome("radar")); 
