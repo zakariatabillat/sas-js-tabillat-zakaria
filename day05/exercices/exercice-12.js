@@ -14,4 +14,18 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+
+
+let phrase="Bonjour le monde";
+phrase=phrase.split(" ");
+    let a=phrase[0];
+    let b=phrase[2];
+    let z="";
+ z=a;
+ a=b;
+ b=z;
+phrase[0] = a;
+phrase[2] = b;
+
+phrase = phrase.join(" ");
+console.log(phrase);

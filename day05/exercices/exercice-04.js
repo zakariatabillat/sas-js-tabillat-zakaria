@@ -14,4 +14,19 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+
+// function isemail(n){
+//      if(n.includes("@")){
+//         return true;
+//     }
+//     else {return false};
+// }
+// console.log(isemail("zakariajkizerofnf@@ezfn"));
+
+
+
+function isemail(m){
+    return m.includes("@");
+}
+console.log(isemail("hhh"));
+
