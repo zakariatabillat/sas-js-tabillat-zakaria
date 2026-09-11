@@ -1,16 +1,17 @@
 /**
  * ─────────────────────────────────────────────────────────────
- * JOUR 03 · EXERCICE 12 · NIVEAU 2 : CONSOLIDATION (INTERMÉDIAIRES)
- * LE CALLBACK BASIQUE
+ * JOUR 05 · EXERCICE 18 · NIVEAU 3 : DÉFI (AVANCÉS)
+ * COMPTEUR D'OCCURRENCES DE LETTRE
  * ─────────────────────────────────────────────────────────────
  *
  * 🎯 MISSION
- * Créez une fonction executerOperation(a, b, operation). operation sera une fonction passée en argument. Appelez : executerOperation(5, 3, multiplier) (en utilisant la fonction multiplier créée plus tôt).
+ * Créez une fonction qui compte combien de fois la lettre "e" (minuscule ou majuscule) apparaît dans un long paragraphe.
  *
- * 📖 Consigne détaillée : ../03-exercices.md#exercice-12
- * ▶️ Commande : node day03/exercices/exercice-12.js
+ * 📖 Consigne détaillée : ../03-exercices.md#exercice-18
+ * ▶️ Commande : node day05/exercices/exercice-18.js
  */
 'use strict';
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
+// TODO: écris ta solution ici.
