@@ -1,20 +1,26 @@
 /**
  * ─────────────────────────────────────────────────────────────
- * JOUR 05 · EXERCICE 13 · NIVEAU 2 : CONSOLIDATION (INTERMÉDIAIRES)
- * FORMATAGE MONÉTAIRE
+ * JOUR 06 · EXERCICE 02 · NIVEAU 1 : FONDATIONS (DÉBUTANTS)
+ * AJOUT DYNAMIQUE
  * ─────────────────────────────────────────────────────────────
  *
  * 🎯 MISSION
- * Créez une fonction formater(montant) qui prend 1234567 (Number ou String) et retourne "1 234 567 MAD". (Vous pouvez chercher comment utiliser les regex pour insérer des espaces, ou utiliser les boucles/slice).
+ * Créez un tableau vide invites = []. Ajoutez-y successivement "Yassine", "Sara", puis "Amine" en utilisant des méthodes de tableau.
  *
- * 📖 Consigne détaillée : ../03-exercices.md#exercice-13
- * ▶️ Commande : node day05/exercices/exercice-13.js
+ * 📖 Consigne détaillée : ../03-exercices.md#exercice-02
+ * ▶️ Commande : node day05/exercices/exercice-02.js
  */
 'use strict';
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
 
-function formater(montant){
-    
-}
+ const invites = [];
+ invites.push("Yassine", "Sara", "Amine");
+ console.log(invites);
+ 
+ //  invites[0]="Yassine";
+ //  invites[1]= "Sara";
+ //  invites[2]="Amine";
+
+
