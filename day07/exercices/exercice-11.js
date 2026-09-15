@@ -1,23 +1,17 @@
 /**
  * ─────────────────────────────────────────────────────────────
- * JOUR 06 · EXERCICE 11 · NIVEAU 2 : CONSOLIDATION (INTERMÉDIAIRES)
- * ÉCHANTILLONNAGE (SLICE)
+ * JOUR 07 · EXERCICE 11 · NIVEAU 2 : CONSOLIDATION (INTERMÉDIAIRES)
+ * CLONAGE SIMPLE (SPREAD OPERATOR)
  * ─────────────────────────────────────────────────────────────
  *
  * 🎯 MISSION
- * À partir d'un grand tableau de 100 éléments, utilisez .slice() pour extraire les 10 premiers (la première page).
+ * Créez un objet original = { a: 1, b: 2 }. Utilisez la syntaxe "spread" (...) pour créer une copie copie qui n'est pas une référence, puis ajoutez c: 3 à la copie sans modifier l'original.
  *
  * 📖 Consigne détaillée : ../03-exercices.md#exercice-11
- * ▶️ Commande : node day05/exercices/exercice-11.js
+ * ▶️ Commande : node day07/exercices/exercice-11.js
  */
 'use strict';
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-
-const numbers = [];
-for (let i = 1; i <= 100; i++) {
-    numbers.push(i);
-}
-const firstPage = numbers.slice(0, 10);
-console.log(firstPage);
+// TODO: écris ta solution ici.

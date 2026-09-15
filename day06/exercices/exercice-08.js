@@ -14,4 +14,47 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
+'use strict';
 
+// function randomnumbers(Rnd) {
+//     let max = -Infinity;
+//     let min = Infinity;
+
+//     for (let i = 0; i < Rnd.length; i++) {
+//         if (Rnd[i] > max) {
+//             max = Rnd[i];
+//         }
+
+//         if (Rnd[i] < min) {
+//             min = Rnd[i];
+//         }
+//     }
+
+//     console.log("Minimum :", min);
+//     console.log("Maximum :", max);
+// }
+
+// randomnumbers([10, 20, 40, 60]);
+
+function randomnumbers(Rnd) {
+    let max = Rnd[0];
+    let min = Rnd[0];
+
+    for (let i = 1; i < Rnd.length; i++) {
+        if (Rnd[i] > max) {
+            max = Rnd[i];
+        }
+
+        if (Rnd[i] < min) {
+            min = Rnd[i];
+        }
+    }
+
+    console.log("Minimum:", min);
+    console.log("Maximum:", max);
+}
+
+randomnumbers([10, 20, 40, 60]);
+
+
+// do this ex again

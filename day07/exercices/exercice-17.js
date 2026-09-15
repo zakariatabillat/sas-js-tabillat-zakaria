@@ -1,23 +1,17 @@
 /**
  * ─────────────────────────────────────────────────────────────
- * JOUR 06 · EXERCICE 11 · NIVEAU 2 : CONSOLIDATION (INTERMÉDIAIRES)
- * ÉCHANTILLONNAGE (SLICE)
+ * JOUR 07 · EXERCICE 17 · NIVEAU 3 : DÉFI (AVANCÉS)
+ * NETTOYAGE DE SCRAPING AVEC DES OBJETS
  * ─────────────────────────────────────────────────────────────
  *
  * 🎯 MISSION
- * À partir d'un grand tableau de 100 éléments, utilisez .slice() pour extraire les 10 premiers (la première page).
+ * Vous avez scrappé une liste de prix : [{ article: "PC", prix: "1500$" }, { article: "Souris", prix: "25$" }]. Écrivez une fonction qui modifie les objets pour que le prix devienne un vrai Number (enlever le "$").
  *
- * 📖 Consigne détaillée : ../03-exercices.md#exercice-11
- * ▶️ Commande : node day05/exercices/exercice-11.js
+ * 📖 Consigne détaillée : ../03-exercices.md#exercice-17
+ * ▶️ Commande : node day07/exercices/exercice-17.js
  */
 'use strict';
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-
-const numbers = [];
-for (let i = 1; i <= 100; i++) {
-    numbers.push(i);
-}
-const firstPage = numbers.slice(0, 10);
-console.log(firstPage);
+// TODO: écris ta solution ici.

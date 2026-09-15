@@ -1,23 +1,17 @@
 /**
  * ─────────────────────────────────────────────────────────────
- * JOUR 06 · EXERCICE 11 · NIVEAU 2 : CONSOLIDATION (INTERMÉDIAIRES)
- * ÉCHANTILLONNAGE (SLICE)
+ * JOUR 07 · EXERCICE 10 · NIVEAU 2 : CONSOLIDATION (INTERMÉDIAIRES)
+ * COMPTAGE DE VALEURS
  * ─────────────────────────────────────────────────────────────
  *
  * 🎯 MISSION
- * À partir d'un grand tableau de 100 éléments, utilisez .slice() pour extraire les 10 premiers (la première page).
+ * Vous avez une chaîne de caractères "abracadabra". Créez une fonction qui retourne un objet comptant le nombre d'occurrences de chaque lettre. (ex: { a: 5, b: 2, r: 2, c: 1, d: 1 }).
  *
- * 📖 Consigne détaillée : ../03-exercices.md#exercice-11
- * ▶️ Commande : node day05/exercices/exercice-11.js
+ * 📖 Consigne détaillée : ../03-exercices.md#exercice-10
+ * ▶️ Commande : node day07/exercices/exercice-10.js
  */
 'use strict';
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-
-const numbers = [];
-for (let i = 1; i <= 100; i++) {
-    numbers.push(i);
-}
-const firstPage = numbers.slice(0, 10);
-console.log(firstPage);
+// TODO: écris ta solution ici.

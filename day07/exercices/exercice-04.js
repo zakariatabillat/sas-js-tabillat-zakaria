@@ -1,23 +1,30 @@
 /**
  * ─────────────────────────────────────────────────────────────
- * JOUR 06 · EXERCICE 11 · NIVEAU 2 : CONSOLIDATION (INTERMÉDIAIRES)
- * ÉCHANTILLONNAGE (SLICE)
+ * JOUR 07 · EXERCICE 04 · NIVEAU 1 : FONDATIONS (DÉBUTANTS)
+ * VÉRIFICATION D'EXISTENCE
  * ─────────────────────────────────────────────────────────────
  *
  * 🎯 MISSION
- * À partir d'un grand tableau de 100 éléments, utilisez .slice() pour extraire les 10 premiers (la première page).
+ * Créez une fonction possedePropriete(obj, cle) qui retourne true si la clé existe dans l'objet, sinon false. *(Indice : vous pouvez utiliser l'opérateur in ou vérifier si c'est !== undefined)*.
  *
- * 📖 Consigne détaillée : ../03-exercices.md#exercice-11
- * ▶️ Commande : node day05/exercices/exercice-11.js
+ * 📖 Consigne détaillée : ../03-exercices.md#exercice-04
+ * ▶️ Commande : node day07/exercices/exercice-04.js
  */
 'use strict';
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
+function possedePropriete(obj,cle) {
+  
+   return cle in obj ;
 
-const numbers = [];
-for (let i = 1; i <= 100; i++) {
-    numbers.push(i);
+
 }
-const firstPage = numbers.slice(0, 10);
-console.log(firstPage);
+possedePropriete();
+
+
+
+
+
+
+

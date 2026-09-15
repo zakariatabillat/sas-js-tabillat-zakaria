@@ -1,23 +1,23 @@
 /**
  * ─────────────────────────────────────────────────────────────
- * JOUR 06 · EXERCICE 11 · NIVEAU 2 : CONSOLIDATION (INTERMÉDIAIRES)
- * ÉCHANTILLONNAGE (SLICE)
+ * JOUR 07 · EXERCICE 06 · NIVEAU 1 : FONDATIONS (DÉBUTANTS)
+ * EXTRACTION DES VALEURS
  * ─────────────────────────────────────────────────────────────
  *
  * 🎯 MISSION
- * À partir d'un grand tableau de 100 éléments, utilisez .slice() pour extraire les 10 premiers (la première page).
+ * Utilisez Object.values() pour récupérer un tableau contenant toutes les valeurs de l'objet, et affichez-le.
  *
- * 📖 Consigne détaillée : ../03-exercices.md#exercice-11
- * ▶️ Commande : node day05/exercices/exercice-11.js
+ * 📖 Consigne détaillée : ../03-exercices.md#exercice-06
+ * ▶️ Commande : node day07/exercices/exercice-06.js
  */
 'use strict';
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-
-const numbers = [];
-for (let i = 1; i <= 100; i++) {
-    numbers.push(i);
+const utilisateur={
+    nom:"zakaria",
+    age:25,
+    estAdmin: true
 }
-const firstPage = numbers.slice(0, 10);
-console.log(firstPage);
+const values=Object.values(utilisateur);
+console.log(values);

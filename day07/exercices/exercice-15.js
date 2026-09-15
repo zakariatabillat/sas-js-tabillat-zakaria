@@ -1,23 +1,19 @@
 /**
  * ─────────────────────────────────────────────────────────────
- * JOUR 06 · EXERCICE 11 · NIVEAU 2 : CONSOLIDATION (INTERMÉDIAIRES)
- * ÉCHANTILLONNAGE (SLICE)
+ * JOUR 07 · EXERCICE 15 · NIVEAU 3 : DÉFI (AVANCÉS)
+ * SIMULATION DE PARSING JSON
  * ─────────────────────────────────────────────────────────────
  *
  * 🎯 MISSION
- * À partir d'un grand tableau de 100 éléments, utilisez .slice() pour extraire les 10 premiers (la première page).
+ * Vous recevez de l'API web la chaîne de caractères (JSON) suivante :
+ * '{"id":1, "titre":"Apprendre le JS", "vu":false}'.
+ * Transformez cette chaîne en véritable objet JavaScript, passez vu à true, et re-transformez-le en chaîne JSON.
  *
- * 📖 Consigne détaillée : ../03-exercices.md#exercice-11
- * ▶️ Commande : node day05/exercices/exercice-11.js
+ * 📖 Consigne détaillée : ../03-exercices.md#exercice-15
+ * ▶️ Commande : node day07/exercices/exercice-15.js
  */
 'use strict';
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-
-const numbers = [];
-for (let i = 1; i <= 100; i++) {
-    numbers.push(i);
-}
-const firstPage = numbers.slice(0, 10);
-console.log(firstPage);
+// TODO: écris ta solution ici.

@@ -14,3 +14,15 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
+function freefire(rnd) {
+    let arr = [];
+for (let i = 0; i < rnd.length; i++) {
+  if (rnd[i] % 2 === 0) {
+      arr.push(rnd[i]);
+        }
+    }
+return arr;
+}
+
+console.log(freefire([10, 15, 22, 7, 8, 13]));
+
